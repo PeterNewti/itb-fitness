@@ -8,45 +8,85 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/w3-v4.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <link rel="icon" href="favicon.png" type="image/png" sizes="32x32">
 </head>
 
 <body>
 
     <!-- REQUIRE: top -->
     <div class="w3-top w3-card-4">
-        <div class="w3-row w3-padding w3-black">
-            <div class="w3-col s1">
-                <a href="index.html" class="w3-button w3-block w3-black">HOME</a>
-            </div>
-            <div class="w3-col s1">
-                <a href="about.html" class="w3-button w3-block w3-black">ABOUT</a>
-            </div>
-            <div class="w3-col s1">
-                <a href="contact.html" class="w3-button w3-block w3-black">CONTACT</a>
-            </div>
-            <div class="github w3-col w3-right s1 w3-border">
-                <a href="https://github.com/PeterNewti/itb-fitness/tree/gh-pages" target="_blank" class="w3-button w3-block w3-black">View on GitHub </a>
+            <div class="w3-row w3-padding w3-black">
+                <div class="w3-col s2">
+                    <a href="index.html" class="w3-button w3-block w3-black">HOME</a>
+                </div>
+                <div class="w3-col s2">
+                    <a href="about.html" class="w3-button w3-block w3-black">ABOUT</a>
+                </div>
+                <div class="w3-col s2">
+                    <a href="shop.html" class="w3-button w3-block w3-black">SHOP</a>
+                </div>
+                <div class="w3-col s2">
+                    <a href="transformations.html" class="w3-button w3-block w3-black">TRANSFORMATIONS</a>
+                </div>
+                <div class="w3-col s2">
+                    <a href="contact.html" class="w3-button w3-block w3-black">CONTACT</a>
+                </div>
+                <div class="github w3-col w3-right s2 w3-border">
+                    <a href="https://github.com/PeterNewti/itb-fitness/tree/gh-pages" target="_blank" class="w3-button w3-block w3-black">View on GitHub </a>
+                </div>
             </div>
         </div>
-    </div>
-    <!-- REQUIRE: top -->
+        <!-- REQUIRE: top -->
+    
 
 
     <!-- MAIN -->
     <div class="w3-grayscale w3-large" style="margin-top: 100px;">
         <div class="w3-container">
             <div class="w3-content" style="max-width:800px">
-                <!----------------------- EDIT CONTENT Content ----------------------->
-                CONTACT PAGE
 
-
-                <form action="/action_page.php" target="_blank">
-                    <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
-                    <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message..." required name="Message"></p>
-                    <p><button class="w3-button w3-black" type="submit">SEND MESSAGE</button></p>
-                </form>
-
-                <!----------------------- EDIT CONTENT Content ----------------------->
+                <!-- EDIT CONTENT Content -->
+                <div class="w3-card-4 w3-animate-zoom w3-padding">
+                    <center><h1>The following clients, <a href="#David">David</a> & <a href="#Lisa">Lisa</a> are users of our whey protein supplement. Below are their awesome body transformations!</h1></center> 
+                </div>
+                <br>
+                <hr>
+                <br>
+                <!-- DAVID TABLE -->
+                <h2 id="David"><center> David </center></h2>
+                <br>
+                <center>
+                <table style="width: 100%;">
+                    <!-- IMAGES ROW -->
+                    <tr class="">
+                        <td><center><img class="transformImgs" src="/images/male1.jpg" alt=""></center></td>
+                        <td><center><img class="transformImgs" src="/images/male2.jpg" alt=""></center></td> 
+                    </tr>
+                    <!-- TITLE ROW -->
+                    <tr class="">
+                        <td><b> <center>Before</center></b></td>
+                        <td><b><center>After</center></b></td>
+                    </tr>
+                </table>
+                <br><br>
+                
+                <!-- LISA TABLE -->
+                <h2 id="Lisa"><center> Lisa </center></h2>
+                <br>
+                <center>
+                <table style="width: 100%;">
+                    <!-- IMAGES ROW -->
+                    <tr class="">
+                        <td><center><img class="transformImgs" src="/images/female1.jpg" alt=""></center></td>
+                        <td><center><img class="transformImgs" src="/images/female2.jpg" alt=""></center></td> 
+                    </tr>
+                    <!-- TITLE ROW -->
+                    <tr class="">
+                        <td><b> <center>Before</center></b></td>
+                        <td><b><center>After</center></b></td>
+                    </tr>
+                </table>
+                <!-- EDIT CONTENT Content -->
             </div>
         </div>
 
