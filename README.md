@@ -4,6 +4,6 @@
 | Students       	| Student No. 	|
 |----------------	|-------------	|
 | Peter Newti    	| B00096225   	|
-| Connor Duffy   	|             	|
-| Dadkarim Murad 	|             	|
-| Liam De Búrca  	|             	|
+| Connor Duffy   	| B00094847     |
+| Dadkarim Murad 	| B00100311     |
+| Liam De Búrca  	| B00094830    	|
